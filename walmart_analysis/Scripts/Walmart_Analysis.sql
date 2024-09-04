@@ -180,6 +180,8 @@ GROUP BY
 ORDER BY 
 "Total Revenue" DESC;
 
+-- 10) 
+
 
 
 
