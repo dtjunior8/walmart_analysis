@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"csvjdbc-191ba0e8a19-10c475335735fd6a": {
+			"provider": "generic",
+			"driver": "csvjdbc",
+			"name": "Downloads",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/dawsontam/Downloads",
+				"url": "jdbc:relique:csv:/Users/dawsontam/Downloads",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
